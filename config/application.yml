@@ -1,0 +1,23 @@
+﻿web:
+  domain: localhost
+server:
+  port: 8081
+datasource:
+  #mysql配置
+  driverName: mysql
+  host: xxx.xxx.xxx.xxxx
+  port: 3306
+  database: xxx
+  username: xxx
+  password: xxxxxxxxxxxx
+  charset: utf8
+  #redis配置
+  redis:
+    addr: xxx.xxx.xxx.xxx:6379
+    db: 1
+    password: xxxxxxxxxxxxxx
+    # 连接超时时间 单位 ms（毫秒）
+    timeout: 3000
+    max-idle: 200
+    max-active: 2000
+    max-wait: 1000
