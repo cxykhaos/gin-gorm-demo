@@ -1,0 +1,9 @@
+.idea/
+.vscode/
+logs/
+files/
+temp/
+config/
+web/node_modules
+main
+gin-bin.exe
